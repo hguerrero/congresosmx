@@ -1,0 +1,47 @@
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+.explore {
+	background: #00009f;
+	color: #FFFFFF;
+}
+
+.content {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.8);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.masthead {
+	background: #4B6DA9;
+	height: 150px;
+}
+
+.masthead .phones {
+	color: #FFFFFF;
+}
+
+.masthead .logo {
+	height: 120px;
+}
+
+.section-1 {
+	height: 150px;
+}
+
+.section-2 {
+	height: 150px;
+}
+
+.section-3 {
+	height: 150px;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CongresosMX</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Custom styles for this template -->
+    <link href="{{ theme_url }}/styles/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-ng-app="webappApp" data-ng-controller="AppCtrl">
+
+    <div class="container">
+
+      <div class="row masthead">
+        <div class="col-md-1">
+          <img class="logo img-responsive" src="{{ theme_url }}/images/perro2.png"/>
+        </div>
+        <div class="col-md-3">
+          <p class="text-center">
+          <img class="img-responsive" src="{{ theme_url }}/images/logo_congresosmx.png"/>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="text-center">
+            <a href="https://www.facebook.com/pages/CongresosMX">
+            <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook.png" width="35" height="35" />
+            </a>
+            <a href="https://twitter.com/congresosmx">
+            <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/twitter.png" width="35" height="35" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCL3xTEk32PzsnUG-RjD9rtA">
+            <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/youtube.png" width="35" height="35" />
+            </a>
+            <a href="https://www.pinterest.com/congresosmx/">
+            <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/googleplus.png" width="35" height="35" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+	        <div class="phones text-right">
+	          <strong>
+	          4628 6932<br>
+	          4328 4952<br>
+	          4988 2019<br><br>
+	          2232 7933<br>
+	          </strong>
+	        </div>
+	        <div class="sucursales text-right">
+	        	<a href="sucursales" class="btn btn-warning"><span class=" text-uppercase"><strong>Sucursales</strong></span></a>
+	        </div>
+        </div>
+      </div>
+
+      <div class="row explore">
+        <div class="col-md-2 col-lg-2">
+          <h3>Diplomado</h3>
+        </div>
+        <div class="col-md-2 col-lg-2">
+          <h3>Acapulco</h3>
+        </div>
+        <div class="col-md-2 col-lg-2">
+          <h3>Cuba</h3>
+        </div>
+        <div class="col-md-2 col-lg-2">
+          <h3>Europa</h3>
+        </div>
+        <div class="col-md-2 col-lg-2">
+          <h3>Banquetes</h3>
+        </div>
+        <div class="col-md-2 col-lg-2">
+          <h3>Video Galeria</h3>
+        </div>
+      </div>
+
+      <!-- Add your site or application content here -->
+      <div id="page-wrapper" data-ng-view="" class="row"></div>
+
+      <div class="row content">
+        <div class="col-lg-12">
+        {{ content }}
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+      <footer>
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-md-12">
+	          <h2>Descubre</h2>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-md-3">
+	          <ul>
+	          	<li>Quienes somos</li>
+	          	<li>Nosotros</li>
+	          	<li>Desarrollo de nuestros servicios</li>
+	          </ul>
+	        </div>
+	        <div class="col-md-3">
+	          <ul>
+	          	<li>Congresos y convenciones</li>
+	          	<li>Seminarios</li>
+	          	<li>Simposios</li>
+	          </ul>
+	        </div>
+	        <div class="col-md-3">
+	          <ul>
+	          	<li>Ferias y exposiciones</li>
+	          	<li>Aviso de privacidad</li>
+	          	<li>Contacto</li>
+	          </ul>
+	        </div>
+	        <div class="col-md-3">
+	        	<h6><small>
+	        	Villa de Guerrero No. 139 Col. Atlacomulco<br>
+	        	Cd. Nezahualcoyotl, Edo. de Mex. CP. 57720
+	        	</small></h6>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/02-SR%20FROGS%20SPONSOR.png">
+	        </div>
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/boton%20sponsor%20tajin%20web.png">
+	        </div>
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/consulting.png">
+	        </div>
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/flores%20editores.png">
+	        </div>
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/logo_sphere2.png">
+	        </div>
+	        <div class="col-md-2 col-lg-2">
+	          <img alt="" class="img-responsive" src="http://www.congresosmx.com/home/images/vip%20logo%20sponsor.png">
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-md-12">
+	        <p>&copy; Company 2014</p>
+	        </div>
+	      </div>
+      </div>
+      </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-sanitize.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-cookies.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/1.6.1/angular-file-upload.min.js"></script>
+
+	<!-- Libraries -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/1.6.1/angular-file-upload-shim.min.js"></script>
+
+	<script src="{{ theme_url }}/scripts/app.js"></script>
+	<script src="{{ theme_url }}/scripts/controllers/main.js"></script>
+
+  </body>
+</html>
