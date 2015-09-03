@@ -10,6 +10,30 @@ body {
 	color: #FFFFFF;
 }
 
+/* unvisited link */
+.explore a:link {
+    color: #FFFFFF;
+		text-decoration: none;
+}
+
+/* visited link */
+.explore a:visited {
+    color: #00FF00;
+		text-decoration: none;
+}
+
+/* mouse over link */
+.explore a:hover {
+    color: #FF00FF;
+		text-decoration: none;
+}
+
+/* selected link */
+.explore a:active {
+    color: #0000FF;
+		text-decoration: none;
+}
+
 .content {
 	/* Fallback for web browsers that doesn't support RGBa */
 	background: rgb(255, 255, 255);
