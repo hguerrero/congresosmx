@@ -4,4 +4,4 @@ Title: Acapulco
 Acapulco:
 ---------
 
-![Acapulco]({{ base_url }}/images/acapulco.png "Acapulco")
+![Acapulco]({{ base_url }}/content/images/acapulco.png "Acapulco")
