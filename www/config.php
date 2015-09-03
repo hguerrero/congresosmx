@@ -31,5 +31,6 @@ $config['plugins']['phile\\phpFastCache'] = ['active' => false];
  * demo plugin
  */
 // $config['plugins']['mycompany\\demoPlugin'] = ['active' => true];
+$config['plugins']['phile\\inlineImage'] = array('active' => true);
 
 return $config;
